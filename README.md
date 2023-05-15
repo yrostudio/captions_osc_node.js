@@ -33,11 +33,13 @@ node server.js
 ![Screenshot 2023-05-15 at 09 14 54](https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/f672fd3e-8795-4f07-9b79-e27a4f21c456)
 
 . Give the audience the adresse : 192.168.1.66:3000
+ 
+.Send Message OSc should be /captions string or 0 (to fade out the message)
 
-  
-Message OSc should be /captions string
+![IMG_6850](https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/be57042b-d4c6-4f26-8aa3-db99d1038958)
 
-Try the Maxmsp patch to send message.
+
+. Try the Maxmsp patch to send message.
 
 
   <img width="902" alt="Screenshot 2023-05-15 at 10 12 08" src="https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/98af5553-66c1-4a73-bd6f-26d3071d5bd3">
