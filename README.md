@@ -27,8 +27,19 @@ npm install osc
 node server.js
 
 . Test the server: Open a web browser and navigate to http://localhost:3000. If you send an OSC message to the server on port 57121 (or the port you specified in the code), the h1 element should update with the contents of the message.
+
+. Connect your computer to an open wifi network. Set your ip manual.
+
+![Screenshot 2023-05-15 at 09 14 54](https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/f672fd3e-8795-4f07-9b79-e27a4f21c456)
+
+. Give the audience the adresse : 192.168.1.66:3000
+
   
 Message OSc should be /captions string
+
 Try the Maxmsp patch to send message.
-  
+
+
+  <img width="902" alt="Screenshot 2023-05-15 at 10 12 08" src="https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/98af5553-66c1-4a73-bd6f-26d3071d5bd3">
+
   
