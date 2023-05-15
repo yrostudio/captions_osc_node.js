@@ -19,11 +19,11 @@ This will create a package.json file in the folder, which is used to manage the 
 
 . Install dependencies: Run the following commands in the terminal to install the necessary dependencies for the project:
 
-_npm install express
+_npm install express_
 
-npm install socket.io
+_npm install socket.io_
 
-npm install osc_
+_npm install osc_
 
 <br>
 
