@@ -1,4 +1,4 @@
-# THEATRE SUBTITLES ON AUDIENCE PHONE USING OSC MESSAGE AND NODE.JS
+# THEATRE SUBTITLES ON AUDIENCE PHONE/TABLET USING OSC MESSAGE AND NODE.JS
 <br>Send OSC message to a node.js server so audience could read subtitles on their phone<br>
 
 _
