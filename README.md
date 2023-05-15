@@ -10,21 +10,31 @@ _
 . Terminal: Open a terminal or command prompt window and navigate to the folder you just created using the cd command.
 
 . Initialize a new Node.js project: Run the following command in the terminal to initialize a new Node.js project in the folder : 
-npm init -y
+
+_npm init -y_
+
+<br>
+
 This will create a package.json file in the folder, which is used to manage the project's dependencies and metadata.
 
 . Install dependencies: Run the following commands in the terminal to install the necessary dependencies for the project:
 
-npm install express
+_npm install express
+
 npm install socket.io
-npm install osc
 
-. Create the server file: Create a new file in the folder and name it server.js. Copy and paste the server code I provided earlier into this file.
+npm install osc_
 
-. Create the HTML file: Create a new file in the folder and name it index.html. Copy and paste the HTML code I provided earlier into this file.
+<br>
+
+. Create the server file: Paste server.js in that folder.
+
+. Create the HTML file: Paste index.html in that folder.
 
 . Start the server: Run the following command in the terminal to start the server:
-node server.js
+
+_node server.js_
+<br>
 
 . Test the server: Open a web browser and navigate to http://localhost:3000. If you send an OSC message to the server on port 57121 (or the port you specified in the code), the h1 element should update with the contents of the message.
 
@@ -34,7 +44,7 @@ node server.js
 
 . Give the audience the adresse : 192.168.1.66:3000
  
-.Send Message OSc should be /captions string or 0 (to fade out the message)
+.Send Message OSC should be /captions string or 0 (to fade out the message)
 
 ![IMG_6850](https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/be57042b-d4c6-4f26-8aa3-db99d1038958)
 
