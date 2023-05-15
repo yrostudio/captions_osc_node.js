@@ -18,7 +18,7 @@ io.on('connection', (socket) => {
 
 
 udpPort.on("message", function (oscMsg) {
-    if (oscMsg.address === "/caption") { // receiving only oscmessage /caption 
+    if (oscMsg.address === "/captions") { // receiving only oscmessage /caption 
         io.emit('updateDiv', oscMsg.args[0]); // Emit the OSC message argument to all connected clients
         console.log(oscMsg.args[0]);
     }
