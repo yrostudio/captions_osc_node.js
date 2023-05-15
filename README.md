@@ -44,7 +44,7 @@ _node server.js_
 
 . Give the audience the adresse : 192.168.1.66:3000
  
-.Send Message OSC should be /captions string or 0 (to fade out the message)
+.Send Message OSC should be /caption string or 0 (to fade out the message)
 
 ![IMG_6850](https://github.com/yrostudio/live_subtitles_osc_node.js/assets/59850990/be57042b-d4c6-4f26-8aa3-db99d1038958)
 
