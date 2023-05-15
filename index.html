@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>CAPTIONS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 5vw;
+            margin-top: auto;
+            text-align: center;
+        }
+
+
+        #container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #container.fade-out {
+            opacity: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1 id="captions"></h1>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        socket.on('updateDiv', function(data) {
+            if (data.value == '0') {
+                document.getElementById('container').classList.add('fade-out');
+            } else {
+                document.getElementById('container').classList.remove('fade-out');
+            }
+
+
+            if (data.value != '0') {
+                document.getElementById('captions').innerHTML = data.value;
+            }
+
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
